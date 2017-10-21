@@ -46,5 +46,5 @@ void Merge(mArray S, mIndex begin, mIndex end)
 	while (buffer_left <= buffer_mid)S[s++] = buffer[buffer_left++];
 	while (buffer_right <= buffer_end)S[s++] = buffer[buffer_right++];
 	
-	free(buffer);					                           // free
+	free(buffer);					                     // free
 }
